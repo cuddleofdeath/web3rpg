@@ -16,6 +16,8 @@ I hope to accomplish the end goal, and I would like to have this be an opensourc
 
 Coming soon, stay tuned! These won't be your typical classes like Warrior, Mage, and Cleric.
 
+## NextJS stuff
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
