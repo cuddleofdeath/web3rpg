@@ -25,7 +25,18 @@ export default function Home() {
             type='text'
             placeholder='Character Name'
           /> */}
-          <p className='mt-5 text-left ml-5 text-base'>Character Class:</p>
+          <p className='mt-5 text-left ml-5 text-base'>
+            Character Class:{' '}
+            <select className='bg-white outline' placeholder='Character Name'>
+              <option value='' disabled selected>
+                Select a Class
+              </option>
+              <option>Investoooor</option>
+              <option>Diamond Handooor</option>
+              <option>Paper Handooor</option>
+              <option>Buildooor</option>
+            </select>
+          </p>
           <p className='mt-5 text-left ml-5 text-base'>
             Character Description:{' '}
             <input
