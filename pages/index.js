@@ -6,18 +6,35 @@ export default function Home() {
       </div>
       <div className='grid grid-cols-3 bg-[#514eed] text-white w-full  p-2 justify-center text-center text-4xl'>
         <div></div>
-        <div className='rounded-xl bg-black text-white ml-[30%] w-1/2 h-[300px]'>
-          Welcome to Web3RPG!!!!!! test
-          <p className='mt-2'>Testing</p>
+        <div className='grid-cols-5 rounded-[120px] bg-black text-white ml-[25%] mb-2 mt-2 w-[95%] h-[520px] '>
+          {/* Welcome to Web3RPG!!!!!! test */}
+          {/* <p className='mt-2'>Testing</p> */}
         </div>
-        <div className='rounded-xl bg-white text-black ml-[-71%] mt-[-0.7%] w-1/2 h-[300px]'>
-          Welcome to Web3RPG!!!!!!
-          <p className='mt-5 text-left ml-5 text-base'>Character Name:</p>
+        <div className='rounded-[120px] bg-white text-black ml-[-70%] mt-[3%] w-[85%] h-[500px]'>
+          <p className='text-[50%] mt-2'>Welcome to Web3RPG!!!!!!</p>
+          <p className='mt-5 text-left ml-5 text-base'>
+            Character Name:{' '}
+            <input
+              className='w-25 py-2 outline border-black'
+              type='text'
+              placeholder='Character Name'
+            />
+          </p>{' '}
+          {/* <input
+            className='w-20 py-2 outline border-black'
+            type='text'
+            placeholder='Character Name'
+          /> */}
           <p className='mt-5 text-left ml-5 text-base'>Character Class:</p>
           <p className='mt-5 text-left ml-5 text-base'>
-            Character Description:
+            Character Description:{' '}
+            <input
+              className='w-25 py-2 outline border-black'
+              type='text'
+              placeholder='Likes to eat cheese.'
+            />
           </p>
-          <button className='mt-4 border-solid rounded-xl border-black border-[8px] p-2 hover:border-red-700 hover:text-red-700'>
+          <button className='mt-[15%] border-solid rounded-xl border-black border-[8px] p-2 hover:border-red-700 hover:text-red-700 text-2xl'>
             Mint
           </button>
         </div>
