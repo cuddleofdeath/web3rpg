@@ -35,6 +35,16 @@ header {
   font-size: 3em;
 }
 
+footer {
+  font-size: 3em;
+  background-color: $color-red;
+  height: 400px;
+  margin-top: -400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: $color-red-dark 2px 5px 5px;
+}
 html {
   font-size: 62.5%;
   font-family: $font-main;
@@ -100,7 +110,7 @@ html {
   }
 
   &--minterbg {
-    margin-top: -15px;
+    margin-top: -65px;
     margin-left: -15px;
     grid-row: 2/3;
     grid-column: 2/3;
@@ -209,8 +219,11 @@ a {
   background-color: $color-yellow;
 
   &:hover {
-    outline: $color-blue-dark;
+    outline: #fff;
     outline-style: solid;
+    outline-width: 5px;
+    background-color: #000;
+    color: #fff;
   }
 }
 
@@ -223,4 +236,18 @@ a {
 .w3rpglogo {
   padding-left: 40px;
   font-size: 4.5rem;
+}
+
+footer a {
+  outline-style: none;
+  text-decoration: none;
+  background-color: $color-red;
+
+  padding: 0px;
+  margin-bottom: 0px;
+
+  &:hover {
+    outline: $color-blue-dark;
+    outline-style: solid;
+  }
 }

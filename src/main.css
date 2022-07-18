@@ -11,6 +11,16 @@
 header {
   font-size: 3em; }
 
+footer {
+  font-size: 3em;
+  background-color: #f64740;
+  height: 400px;
+  margin-top: -400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: #f4180f 2px 5px 5px; }
+
 html {
   font-size: 62.5%;
   font-family: "JetBrains Mono", monospace;
@@ -59,7 +69,7 @@ html {
     font-size: 3rem;
     filter: drop-shadow(30px 10px 4px #000d); }
   .container--minterbg {
-    margin-top: -15px;
+    margin-top: -65px;
     margin-left: -15px;
     grid-row: 2/3;
     grid-column: 2/3;
@@ -143,8 +153,11 @@ a {
   margin-bottom: 20px;
   background-color: #f9d451; }
   a:hover {
-    outline: #1a3e9b;
-    outline-style: solid; }
+    outline: #fff;
+    outline-style: solid;
+    outline-width: 5px;
+    background-color: #000;
+    color: #fff; }
 
 .nav {
   padding: 10px 0px 40px 0px;
@@ -154,3 +167,13 @@ a {
 .w3rpglogo {
   padding-left: 40px;
   font-size: 4.5rem; }
+
+footer a {
+  outline-style: none;
+  text-decoration: none;
+  background-color: #f64740;
+  padding: 0px;
+  margin-bottom: 0px; }
+  footer a:hover {
+    outline: #1a3e9b;
+    outline-style: solid; }
