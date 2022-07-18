@@ -32,7 +32,7 @@ $font-main: 'JetBrains Mono', monospace;
 }
 
 header {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 html {
@@ -78,9 +78,10 @@ html {
   &--navigation {
     background-color: $color-red;
     grid-column: 1 / -1;
-    height: 20px;
+    height: 26px;
     font-family: $font-main !important;
     display: flex !important;
+    padding: 23px 23px 40px 23px;
   }
 
   &--minter {
@@ -143,21 +144,24 @@ html {
 
 .btn {
   background-color: #fff;
+
+  color: $color-red;
+  outline: $color-red;
   outline-style: solid;
   border-radius: 100px;
   width: 100%;
-  font-size: 2rem;
+
   //   filter: drop-shadow(30px 10px 4px #000d);
 
   &--pad {
     margin-top: 30px;
     margin-left: auto;
-    height: 50px;
+    height: 55px;
 
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 0px;
   }
 
   &--element {
@@ -165,7 +169,10 @@ html {
   }
 
   &:hover {
-    background-color: $color-red;
+    background-color: $color-red-dark;
+    color: #fff;
+    outline: $color-red-dark;
+    outline-style: solid;
   }
 }
 
@@ -175,21 +182,45 @@ html {
   flex-wrap: wrap;
 
   justify-content: space-between;
-  background-color: $color-red !important;
+  background-color: $color-red;
 }
 
 .nav-links {
   display: flex;
-  background-color: $color-red !important;
-  padding: auto;
-
-  justify-content: space-around;
 }
 
 .links {
   display: flex;
   font-size: 2.5rem;
-  padding: 0px 10px 0 3px;
+  padding: 0px 40px 0px 63px !important;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  outline: #000;
+  outline-width: 5px;
+  outline-style: solid;
+  border-radius: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: $color-yellow;
+
+  &:hover {
+    outline: $color-blue-dark;
+    outline-style: solid;
+  }
+}
+
+.nav {
+  padding: 10px 0px 40px 0px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.w3rpglogo {
+  padding-left: 40px;
+  font-size: 4.5rem;
 }
