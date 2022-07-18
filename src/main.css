@@ -9,7 +9,7 @@
   z-index: 1; }
 
 header {
-  font-size: 2em; }
+  font-size: 3em; }
 
 html {
   font-size: 62.5%;
@@ -41,9 +41,10 @@ html {
   .container--navigation {
     background-color: #f64740;
     grid-column: 1 / -1;
-    height: 20px;
+    height: 26px;
     font-family: "JetBrains Mono", monospace !important;
-    display: flex !important; }
+    display: flex !important;
+    padding: 23px 23px 40px 23px; }
   .container--minter {
     margin-top: -3px;
     margin-left: -4px;
@@ -93,39 +94,63 @@ html {
 
 .btn {
   background-color: #fff;
+  color: #f64740;
+  outline: #f64740;
   outline-style: solid;
   border-radius: 100px;
-  width: 100%;
-  font-size: 2rem; }
+  width: 100%; }
   .btn--pad {
     margin-top: 30px;
     margin-left: auto;
-    height: 50px;
+    height: 55px;
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding-top: 15px; }
+    padding-top: 0px; }
   .btn--element {
     background-color: #fff; }
   .btn:hover {
-    background-color: #f64740; }
+    background-color: #f4180f;
+    color: #fff;
+    outline: #f4180f;
+    outline-style: solid; }
 
 .navbar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #f64740 !important; }
+  background-color: #f64740; }
 
 .nav-links {
-  display: flex;
-  background-color: #f64740 !important;
-  padding: auto;
-  justify-content: space-around; }
+  display: flex; }
 
 .links {
   display: flex;
   font-size: 2.5rem;
-  padding: 0px 10px 0 3px;
+  padding: 0px 40px 0px 63px !important;
   justify-content: space-between;
-  align-items: baseline; }
+  align-items: center; }
+
+a {
+  text-decoration: none;
+  color: #000;
+  outline: #000;
+  outline-width: 5px;
+  outline-style: solid;
+  border-radius: 100px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f9d451; }
+  a:hover {
+    outline: #1a3e9b;
+    outline-style: solid; }
+
+.nav {
+  padding: 10px 0px 40px 0px;
+  font-size: 30px;
+  font-family: sans-serif; }
+
+.w3rpglogo {
+  padding-left: 40px;
+  font-size: 4.5rem; }
