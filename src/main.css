@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,600&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "JetBrains Mono", monospace;
+  z-index: 1; }
+
+header {
+  font-size: 2em; }
+
+html {
+  font-size: 62.5%;
+  font-family: "JetBrains Mono", monospace;
+  background-color: #214fc7; }
+
+.header {
+  background-color: #fff;
+  width: 100vw;
+  margin-left: -30px;
+  color: #000;
+  font-size: 20px;
+  margin-top: -30px; }
+
+.flex-container {
+  display: flex;
+  background-color: #f64740;
+  flex-direction: column; }
+
+.container {
+  background-color: #214fc7;
+  width: 1000px;
+  height: 1000px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: repeat(2, 50px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 80px; }
+  .container--navigation {
+    background-color: #f64740;
+    grid-column: 1 / -1;
+    height: 20px;
+    font-family: "JetBrains Mono", monospace !important;
+    display: flex !important; }
+  .container--minter {
+    margin-top: -3px;
+    margin-left: -4px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    z-index: 10;
+    border-radius: 100px;
+    background-color: #fff;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    font-size: 3rem;
+    filter: drop-shadow(30px 10px 4px #000d); }
+  .container--minterbg {
+    margin-top: -15px;
+    margin-left: -15px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    z-index: 9;
+    border-radius: 120px;
+    background-color: #000;
+    height: 430px;
+    width: 430px; }
+  .container--title {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 2em !important; }
+
+.item {
+  padding: 20px;
+  font-size: 20px;
+  font-family: sans-serif; }
+  .item--detail {
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff; }
+  .item--detail-input {
+    background-color: #214fc7;
+    color: #fff;
+    outline-color: #000;
+    padding: 5px 5px 5px 10px;
+    align-items: center;
+    margin: 10px;
+    outline-style: solid;
+    border: none;
+    font-size: 15px;
+    background-color: #f64740 !important; }
+
+.btn {
+  background-color: #fff;
+  outline-style: solid;
+  border-radius: 100px;
+  width: 100%;
+  font-size: 2rem; }
+  .btn--pad {
+    margin-top: 30px;
+    margin-left: auto;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px; }
+  .btn--element {
+    background-color: #fff; }
+  .btn:hover {
+    background-color: #f64740; }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f64740 !important; }
+
+.nav-links {
+  display: flex;
+  background-color: #f64740 !important;
+  padding: auto;
+  justify-content: space-around; }
+
+.links {
+  display: flex;
+  font-size: 2.5rem;
+  padding: 0px 10px 0 3px;
+  justify-content: space-between;
+  align-items: baseline; }
